@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fade-in {
+  animation: fade-in 1s ease;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(-10px);}
+}
+.animate-bounce {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0.7);}
+  50% { box-shadow: 0 0 20px 10px rgba(16,185,129,0.2);}
+}
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animated-gradient {
+  background-size: 300% 300%;
+  animation: gradient-move 10s ease-in-out infinite;
+}
+
+.text-shadow-strong {
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18), 0 1px 1px rgba(0,0,0,0.12);
+}
