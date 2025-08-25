@@ -128,7 +128,7 @@ function App() {
                 <Leaf className="w-12 h-12 text-white drop-shadow-lg" />
               </div>
               <h1 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent drop-shadow-lg">
-                EcoToken dApp
+                Carbon-Wise dApp
               </h1>
             </div>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8 font-medium">
